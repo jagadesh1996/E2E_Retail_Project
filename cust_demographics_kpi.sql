@@ -46,7 +46,3 @@ SELECT HOMEOWNER_DESC, COUNT(*) AS homeownership_count,
   ROUND((COUNT(*) * 100.0 / (SELECT COUNT(*) FROM demographic_RAW)), 2) AS homeownership_percentage
 FROM demographic_RAW
 GROUP BY HOMEOWNER_DESC;
-
-Resume Bullet Point Example:
-Performed Customer Demographic Analysis: Developed and executed Snowflake SQL queries to analyze customer demographics. 
-Delivered insights into household composition, age distribution, marital status, income, and homeownership, helping to inform targeted marketing and enhance customer segmentation.
