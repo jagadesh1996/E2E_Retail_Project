@@ -23,6 +23,3 @@ Query:
 SELECT CAMPAIGN, COUNT(DISTINCT household_key) AS households_reached
 FROM CAMPAIGN_RAW
 GROUP BY CAMPAIGN;
-
-Resume Bullet Point Example
-Analyzed Campaign Effectiveness: Utilized Snowflake SQL to assess campaign performance by calculating reach and duration metrics, enabling targeted improvements for future marketing campaigns.
