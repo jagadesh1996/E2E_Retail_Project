@@ -28,5 +28,3 @@ SELECT CAMPAIGN, COUNT(DISTINCT COUPON_UPC) AS coupons_redeemed
 FROM COUPON_REDEMPT_RAW
 GROUP BY CAMPAIGN;
 Result: Displays each campaign along with the count of redeemed coupons, helping assess campaign effectiveness.
-Resume Bullet Point Example
-Enhanced Coupon Analysis: Designed metrics for coupon redemption analysis, identifying effective campaigns with high redemption rates, enabling data-driven adjustments to coupon distribution strategies.
